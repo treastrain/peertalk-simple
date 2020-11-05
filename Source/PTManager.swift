@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Peertalk
 
 // MARK: - Delegate
 protocol PTManagerDelegate {
