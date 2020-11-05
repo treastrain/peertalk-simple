@@ -4,18 +4,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "peertalk-simple",
+    name: "PeerTalkSimple",
     products: [
         .library(
-            name: "peertalk-simple",
-            targets: ["peertalk-simple"]),
+            name: "PeerTalkSimple",
+            targets: ["PeerTalkSimple"]),
     ],
     dependencies: [
         .package(name: "Peertalk", url: "https://github.com/tonyarnold/peertalk", .branch("feature/swift-package-manager")),
     ],
     targets: [
         .target(
-            name: "peertalk-simple",
+            name: "PeerTalkSimple",
             dependencies: ["Peertalk"],
             path: "Source"),
     ]
